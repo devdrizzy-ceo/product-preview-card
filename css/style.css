@@ -116,10 +116,17 @@ main {
 }
 
 @media (max-width:48em) {
+
+     body{
+        padding-top: 3rem;
+     }
+
+
     main{
         flex-direction: column;
         width: 93%;      
         height: auto;
+        
     }
 
     .left, .right {
